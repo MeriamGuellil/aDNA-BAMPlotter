@@ -21,7 +21,7 @@ Standard usage:
  python BAM_PLOTTER_ADNA_MG-2021.py -b in.bam -d misincorporation.txt -o out.pdf
  ```
 
-Usage while filtering for two specific header:
+Usage while filtering for two specific headers:
 ```
  python BAM_PLOTTER_ADNA_MG-2021.py -b yp.bam -d misincorporation.txt -i NC_003143.1 NC_003131.1 -o out.pdf
  ```
