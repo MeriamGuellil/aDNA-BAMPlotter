@@ -18,22 +18,22 @@ You will need the following python packages to run the script:
 # Usage example:
 Standard usage:
 ```
- python BAM_PLOTTER_ADNA_MG-2021.py -b in.bam -d misincorporation.txt -o out.pdf
+ python aDNA-BAMPlotter.py -b in.bam -d misincorporation.txt -o out.pdf
  ```
 
 Usage while filtering for two specific headers:
 ```
- python BAM_PLOTTER_ADNA_MG-2021.py -b yp.bam -d misincorporation.txt -i NC_003143.1 NC_003131.1 -o out.pdf
+ python aDNA-BAMPlotter.py -b yp.bam -d misincorporation.txt -i NC_003143.1 NC_003131.1 -o out.pdf
  ```
 
 Usage while changing the quality threshold to 10:
 ```
- python BAM_PLOTTER_ADNA_MG-2021.py -b in.bam -d misincorporation.txt -q 10 -o out.pdf
+ python aDNA-BAMPlotter.py -b in.bam -d misincorporation.txt -q 10 -o out.pdf
  ```
 
 For help use:
 ```
- python BAM_PLOTTER_ADNA_MG-2021.py -h
+ python aDNA-BAMPlotter.py -h
  ```
 
 **Example Plot:**
