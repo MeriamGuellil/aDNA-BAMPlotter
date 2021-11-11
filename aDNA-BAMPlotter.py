@@ -1,12 +1,12 @@
 import os
 import argparse
 
-parser = argparse.ArgumentParser(description="""aDNA BAM Mapping Plots For Bacteria and Viruses-  Meriam Guellil  -  September 2021 v2.0""", epilog="""Outputs Coverage, Edit Distance and Misincorporation plots for Each BAM Header""")
+parser = argparse.ArgumentParser(description="""aDNA BAM Mapping Plots For Microbial Genomes -  Meriam Guellil  -  September 2021 v2.0""", epilog="""Outputs coverage, edit distance and deamination plots for each BAM header""")
 parser.add_argument('-b',metavar='BAM file', dest='bamR', required=True, type=str, help='Indexed BAM file, which should ideally not be filtered based on MAPQ (required)')
-parser.add_argument('-d',metavar='Misincorporation file', dest='deam', required=False, type=str, help='mapDamage2 misincorporation.txt output (optional)')
+parser.add_argument('-d',metavar='Misincorporation file', dest='deam', required=False, type=str, help='mapDamage2 misincorporation.txt file (optional)')
 parser.add_argument('-o',metavar='Output File', dest='out', required=True, type=str, help='Output file with extension for desired format (e.g. pdf, svg, png) (required)')
-parser.add_argument('-i',metavar='Headers for output', dest='headlist', required=False, type=str, nargs='+', help='Space seperated list of bam headers to filter for (optional)')
-parser.add_argument('-q',metavar='desired MQ cutoff', dest='mqf', required=False, default="30", type=str, help='MQ threshold for quality filtered coverage plot (default: 30)')
+parser.add_argument('-i',metavar='Headers for output', dest='headlist', required=False, type=str, nargs='+', help='Space seperated list of BAM headers to filter for (optional)')
+parser.add_argument('-q',metavar='desired MQ threshold', dest='mqf', required=False, default="30", type=str, help='MQ threshold for quality filtered coverage plot (default: 30)')
 args= parser.parse_args()
 
 import datetime
