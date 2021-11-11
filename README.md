@@ -40,7 +40,7 @@ For help use:
 ![alt text](https://github.com/MeriamGuellil/aDNA-BAMPlotter/blob/main/example_plot.png?raw=true)
 
 # Cite:
-Please cite using the DOI:
+[![DOI](https://zenodo.org/badge/427075004.svg)](https://zenodo.org/badge/latestdoi/427075004)
 
 # References:
 Jónsson, Hákon, Aurélien Ginolhac, Mikkel Schubert, Philip L. F. Johnson, and Ludovic Orlando. 2013. “mapDamage2.0: Fast Approximate Bayesian Estimates of Ancient DNA Damage Parameters.” Bioinformatics  29 (13): 1682–84. https://doi.org/10.1093/bioinformatics/btt193.
