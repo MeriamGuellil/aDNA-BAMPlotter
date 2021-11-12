@@ -42,7 +42,7 @@ For help use:
 ![alt text](https://github.com/MeriamGuellil/aDNA-BAMPlotter/blob/main/example_plot.png?raw=true)
 
 # Cite:
-Meriam Guellil. (2021). MeriamGuellil/aDNA-BAMPlotter: aDNA-BAMPlotter (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.5676093
+Meriam Guellil. (2021). MeriamGuellil/aDNA-BAMPlotter: aDNA-BAMPlotter (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.5676092
 
 # References:
 Jónsson, Hákon, Aurélien Ginolhac, Mikkel Schubert, Philip L. F. Johnson, and Ludovic Orlando. 2013. “mapDamage2.0: Fast Approximate Bayesian Estimates of Ancient DNA Damage Parameters.” Bioinformatics  29 (13): 1682–84. https://doi.org/10.1093/bioinformatics/btt193.
