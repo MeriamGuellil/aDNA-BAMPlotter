@@ -51,7 +51,7 @@ Walt, Stéfan van der, S. Chris Colbert, and Gaël Varoquaux. 2011. “The NumPy
 
 Pysam: Pysam Is a Python Module for Reading and Manipulating SAM/BAM/VCF/BCF Files. It’s a Lightweight Wrapper of the Htslib C-API, the Same One That Powers Samtools, Bcftools, and Tabix. n.d. Github. https://github.com/pysam-developers/pysam.
 
-Miles, Alistair. n.d. Pysamstats. Github. https://github.com/alimanfoo/pysamstats.
+Miles, Alistair. Pysamstats. Github. https://github.com/alimanfoo/pysamstats.
 
 McKinney, Wes, and Others. 2010. “Data Structures for Statistical Computing in Python.” In Proceedings of the 9th Python in Science Conference, 445:51–56. Austin, TX. http://conference.scipy.org/proceedings/scipy2010/pdfs/mckinney.pdf.
 
