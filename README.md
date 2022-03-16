@@ -7,7 +7,7 @@ This script produces a coverage plot, an edit distance bar plot and a deaminatio
 
 **NOT SUITED FOR LARGE GENOMES SUCH AS EUKARYOTE GENOMES!**
 
-The latest mapdamage version (v2.2.1) does not support the output per fasta header so it cannot be used to plot deamination with this script. However, the function could be returning soon as an optional flag.
+The latest mapdamage version (v2.2.1) does not support the output per fasta header so it cannot be used to plot deamination with this script. However, the function could be returning to mapdamage soon as an optional flag.
 
 # Requirements
 You will need the following python packages to run the script:
